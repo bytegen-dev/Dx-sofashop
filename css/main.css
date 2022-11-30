@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-@font-face{
+/* @font-face{
     font-family: 'Rubik', sans-serif;
 }
 
 @font-face{
     font-family: 'Roboto Slab', serif;
-}
+} */
 
 ::-webkit-scrollbar{
     width: 0px;
