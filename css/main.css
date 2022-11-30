@@ -32,6 +32,9 @@ a{
     background-color: #fff;
     /* height: 100vh; */
     max-height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 
@@ -196,6 +199,7 @@ a{
     max-height: 100vh;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
     /* border: 2px solid black; */
 }
 
@@ -262,6 +266,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
     /* position: relative; */
 }
 
