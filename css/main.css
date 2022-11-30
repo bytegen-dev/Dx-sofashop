@@ -411,6 +411,7 @@ a{
         text-align: center;
         font-weight: bolder;
         color: #222;
+        width: 100%;
     }
 
     .switch span{
