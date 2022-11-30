@@ -19,6 +19,7 @@
 
 body{
     font-family: rubik;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .switch{
