@@ -25,10 +25,15 @@ a{
 
 .container{
     position: relative;
+    /* top: 0; */
     /* border: 2px solid red; */
     width: 100vw;
-    overflow-x: hidden;
+    overflow: hidden;
+    background-color: #fff;
+    /* height: 100vh; */
+    max-height: 100vh;
 }
+
 
 .caption{
     position: absolute;
@@ -102,7 +107,7 @@ a{
     /* border: 2px solid red; */
     position: absolute;
     top: 16px;
-    left: 25px;
+    left: 30px;
     opacity: 1;
     z-index: 2;
 }
@@ -125,7 +130,7 @@ a{
 
 .desktop-links-holder{
     width: 55%;
-    max-width: 758px;
+    max-width: 850px;
     min-width: 500px;
     height: 80px;
     position: absolute;
@@ -231,7 +236,7 @@ a{
     left:50%;
     bottom: 0;
     opacity: 0.7;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .social-links-holder .links a:hover{
