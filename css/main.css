@@ -21,6 +21,10 @@ body{
     font-family: rubik;
 }
 
+.switch{
+    display: none;
+}
+
 a{
     text-decoration: none;
     transition: all 0.5s ease;
@@ -376,3 +380,38 @@ a{
 /* .rb{
 } */
 
+@media screen and (max-width: 1533px) {
+    *{
+        visibility: hidden;
+    }
+
+    body{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .switch, .switch span, .switch h1{
+        visibility: visible !important;
+        display: flex;
+    }
+
+    .switch{
+        position: absolute;
+        top: 50%;
+        left: 100px;
+        flex-direction: column;
+    }
+
+    .switch span{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .switch h1{
+        /* text-align: justify; */
+        position: relative;
+        left: 50px;
+        font-size: 100px;
+    }
+}
