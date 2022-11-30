@@ -385,3 +385,9 @@ a{
         display: none;
     }
 }
+
+@media screen and (max-width:930px) {
+    body{
+        display: none;
+    }
+}
