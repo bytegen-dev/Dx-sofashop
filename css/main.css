@@ -402,8 +402,10 @@ a{
     .switch{
         position: relative;
         top: 50%;
-        left: 100px;
+        /* left: 100px; */
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .switch span{
@@ -413,8 +415,8 @@ a{
     
     .switch h1{
         /* text-align: justify; */
-        position: relative;
-        left: 50px;
+        /* position: relative;
+        left: 50px; */
         font-size: 100px;
     }
 }
