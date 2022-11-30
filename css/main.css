@@ -390,6 +390,11 @@ a{
 @media screen and (max-width:930px) {
     .container{
         filter: blur(20px);
+        overflow: hidden;
+    }
+
+    body{
+        overflow: hidden;
     }
 
     .switch{
