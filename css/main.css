@@ -391,6 +391,7 @@ a{
         width: 100vw;
         overflow: hidden;
         display: flex;
+        padding: 0 10vw;
         justify-content: center;
         align-items: center;
     }
