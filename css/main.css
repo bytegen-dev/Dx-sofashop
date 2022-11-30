@@ -381,48 +381,7 @@ a{
 } */
 
 @media screen and (max-width: 1533px) {
-    *{
-        visibility: hidden;
-    }
-
-    body{
-        visibility: visible;
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-        display: flex;
-        padding: 0 10vw;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .switch, .switch span, .switch h1{
-        visibility: visible !important;
-        display: flex;
-    }
-
-    .switch{
-        /* position: relative; */
-        /* top: 50%; */
-        /* left: 100px; */
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-weight: bolder;
-        color: #222;
-        width: 100%;
-    }
-
-    .switch span{
-        font-size: 50px;
-        margin-bottom: 50px;
-    }
-    
-    .switch h1{
-        /* text-align: justify; */
-        /* position: relative;
-        left: 50px; */
-        font-size: 100px;
+    .logo{
+        display: none;
     }
 }
