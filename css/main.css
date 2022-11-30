@@ -33,6 +33,74 @@ a{
     overflow-x: hidden;
 }
 
+.caption{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 225px;
+    width: 636px;
+    height: 337px;
+    background: #fff;
+    padding: 35px 40px 0 70px;
+    /* border-left: 7px solid #FDBF44; */
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.128196), inset 10px 0px 0px #FDBF44;
+}
+
+.caption h3{
+    font-family: Rubik;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #8B8B8B;
+    font-size: 14px;
+    line-height: 16.59px;
+    letter-spacing: 4px;
+}
+
+.caption h1{
+    margin-bottom: 30px;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000A1E;
+}
+
+.caption p{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+    color: #91949A;
+    margin-bottom: 20px;
+}
+
+.caption .add-to-cart{
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+    cursor: pointer;
+    width: 145px;
+    height: 46px;
+    background: #000A1E;
+    font-size: 17px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 20.15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    transition: all 0.7s ease;
+}
+
+.caption .add-to-cart:hover{
+    background: transparent;
+    color: #000A1E;
+}
+
+
+
 .logoimage{
     /* border: 2px solid red; */
     position: absolute;
