@@ -407,6 +407,9 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        font-weight: bolder;
+        color: #222;
     }
 
     .switch span{
