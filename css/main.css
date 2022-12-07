@@ -285,9 +285,10 @@ a{
 
 .swipemei{
     /* background: url(./img/); */
-    background-image: url(/img/slideshow-img.png) !important;
+    background-image: url(/img/slideshow-img.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .text{
